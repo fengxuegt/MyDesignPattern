@@ -1,0 +1,18 @@
+@startuml
+
+class VedioSite {
+
+}
+
+class FixBugVedioSite {
+
+}
+
+class ProxyFreeVedioSite {
+
+}
+
+VedioSite <|- FixBugVedioSite
+VedioSite <|- ProxyFreeVedioSite
+ProxyFreeVedioSite o-- FixBugVedioSite
+@enduml
