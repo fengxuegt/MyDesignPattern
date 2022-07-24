@@ -1,7 +1,9 @@
 @startuml
 
 class VedioSite {
-
+    void freeMovie();
+    void vipMovie();
+    void ticketMovie();
 }
 
 class FixBugVedioSite {
